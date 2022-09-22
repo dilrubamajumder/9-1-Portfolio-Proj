@@ -2,7 +2,7 @@
 
 ## **Outfit Generator!**
 
-### ![Outfit Generator link!](https://dilrubamajumder.github.io/9-1-Portfolio-Proj/index.html)
+### [Outfit Generator link!](https://dilrubamajumder.github.io/9-1-Portfolio-Proj/index.html)
 
 ## HomePage:
 
