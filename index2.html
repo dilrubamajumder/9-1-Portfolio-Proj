@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main Page</title>
+	<link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="nav-bar">
+		<img src="/Logo.png" alt="Dm logo">
+		<h1>Outfit Generator</h1>
+		<a class= "homepage" href="/index.html"><p>HomePage</p></a>
+
+	</div>
+
+	<div id="main-body" class="main-body">
+		<div>
+			<h1 class="h1">Chose your style <br> to generate an outfit!</h1>
+			<img class="gif" src="https://cdn.dribbble.com/users/1019864/screenshots/9189989/blue_dribbble.gif">
+			<h6>Disclaimer: Due to API image selection, some images might not be accuate</h6>
+		</div>
+
+		<form id="form" action="#">
+			<fieldset id="outfitType">
+				<legend>Select a type of outfit:</legend>
+				<input type="radio" id="black" name="outfit-type" value="black">
+				<label for="black">All Black</label> <br>
+				<input type="radio" id="formal" name="outfit-type" value="formal">
+				<label for="formal">Formal</label> <br>
+				<input type="radio" id="Sporty" name="outfit-type" value="sporty">
+				<label for="sporty">Sporty</label> <br>
+				<input type="radio" id="fancy" name="outfit-type" value="fancy">
+				<label for="fancy">Fancy</label> <br>
+				<input type="radio" id="casual" name="outfit-type" value="casual">
+				<label for="casual">Casual</label> <br>
+			</fieldset>
+
+			<fieldset id="genderType">
+				<legend>Select one below:</legend>
+				<input type="radio" id="male" name="gender-type" value="male">
+				<label for="male">Masculine</label> <br>
+
+				<input type="radio" id="female" name="gender-type" value="female">
+				<label for="female">Feminine</label> <br>
+			</fieldset>
+
+			<button id="submitButton">Submit</button>
+			<div id="error-message"></div>
+		</form>
+	</div>
+
+<!-- After choosing the options below-->
+	<div id="grid-container">
+
+		<div id="shirts">
+			<h3>Top</h3>
+			<img>
+		</div>
+
+		<div id="pants">
+			<h3>Bottom</h3>
+			<img>
+		</div>
+
+		<div id="shoes">
+			<h3>Shoes</h3>
+			<img>
+		</div>
+
+		<div id="bag">
+			<h3>Bags</h3>
+			<img>
+		</div>
+		<button id="refresh-btn">Refresh</button>
+
+	</div>
+
+	<script src="main2.js" defer> </script>
+</body>
+
+</html>
